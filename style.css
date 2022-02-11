@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+    /*Formato general*/
+    * {
+        font-family: "Roboto";
+        margin: 0%;
+    
+    }
+
+.topnav {
+    overflow: hidden;
+    background-color: #557a95;
+    }
+
+  /* links dentro de la barra de navegacion */
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: solid;
+    font-size: 17px;
+    background-color: #557a95;
+    }
+
+    /* el color del hover */
+.topnav a:hover {
+    background-color: #f76c6c;  
+    }
+
+    /* color del hover activo */
+    .topnav a.active {
+    background-color: #374785;
+    color: white;
+    }
+
+
+#section1 { width: 100%; 
+    padding: none; 
+    display: block; 
+    margin: 0; 
+    max-width: 100%; 
+    background-image: url("https://img.freepik.com/free-vector/apartment-living-room-spacious-cafeteria-restaurant-hotel-office-hall-lounge-area-3d-realistic-vector-mock-up-with-comfortable-chair-elegant-vase-coffee-table-roomy-interior-illustration_1441-3338.jpg?w=1060"); 
+    background-repeat: no-repeat; 
+    background-size: cover; height: 100vh;
+}
+
+#header1 {
+    padding-top: 125px;
+    padding-left: 850px;
+    color: white;
+    font-size: 40px;
+}
+
+
+#p1 {
+    margin-top: 90px;
+    margin-left: 400px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#link1 {
+    color: white;
+}
