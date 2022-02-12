@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/*Formato general*/
+ * {
+    font-family: "Roboto";
+    margin: 0%;
+    max-width: 100%;
+    
+
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #557a95;
+    }
+
+body{
+    background-image: url("https://upgradedhome.com/wp-content/uploads/2021/05/shutterstock_570656701.webp");
+    background-repeat: no-repeat; 
+    background-size: cover; height: 100vh;
+    
+
+}
+
+
+
+  /* links dentro de la barra de navegacion */
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: solid;
+    font-size: 17px;
+    background-color: #557a95;
+    }
+
+    /* el color del hover */
+.topnav a:hover {
+    background-color: grey;  
+    }
+
+    /* color del hover activo */
+    .topnav a.active {
+    background-color: #374785;
+    color: white;
+    }
+
+
+#div1 {
+    padding-top: 50px;
+    padding-left: 225px;
+    
+    margin-bottom: 100px;
+    margin-right: 150px;
+    height: 700px;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+#img1 {
+    position: absolute;
+    top: 130px;
+    left: 850px;
+    height: 300px;
+    width: 300px;
+    border: 10px solid #374785;
+
+}
+

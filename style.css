@@ -26,7 +26,7 @@
 
     /* el color del hover */
 .topnav a:hover {
-    background-color: #f76c6c;  
+    background-color: grey;  
     }
 
     /* color del hover activo */
@@ -42,6 +42,16 @@
     margin: 0; 
     max-width: 100%; 
     background-image: url("https://img.freepik.com/free-vector/apartment-living-room-spacious-cafeteria-restaurant-hotel-office-hall-lounge-area-3d-realistic-vector-mock-up-with-comfortable-chair-elegant-vase-coffee-table-roomy-interior-illustration_1441-3338.jpg?w=1060"); 
+    background-repeat: no-repeat; 
+    background-size: cover; height: 100vh;
+}
+
+#section2 { width: 100%; 
+    padding: none; 
+    display: block; 
+    margin: 0; 
+    max-width: 100%; 
+    background-image: url("https://www.architectureartdesigns.com/wp-content/uploads/2019/10/1-1024x680.png"); 
     background-repeat: no-repeat; 
     background-size: cover; height: 100vh;
 }
@@ -64,4 +74,59 @@
 
 #link1 {
     color: white;
+}
+
+#header2 {
+    padding-top: 225px;
+    padding-left: 500px;
+    color: white;
+    font-size: 40px;
+}
+
+#p2 {
+    padding-left: 450px;
+    padding-right: 465px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#link2 {
+    color: white;
+}
+
+#section3 {
+    padding: none; 
+    display: block; 
+    margin: 0; 
+    max-width: 100%; 
+    background-image: url("https://www.gonyeahomes.com/wp-content/uploads/2018/07/18200-58th-Ave-Plymouth_030.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; height: 100vh;
+}
+
+
+#header3{
+    padding-top: 100px;
+    padding-left: 300px;
+    color: white;
+    font-size: 40px;
+
+}
+
+
+#p3 {
+    padding-left: 300px;
+    padding-right: 465px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#p4 {
+    padding-left: 300px;
+    padding-right: 465px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
 }
