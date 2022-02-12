@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/*Formato general*/
+* {
+    font-family: "Roboto";
+    margin: 0%;
+    max-width: 100%;
+    
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1571831481144-90717f1d4c86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #557a95;
+    }
+
+
+
+  /* links dentro de la barra de navegacion */
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: solid;
+    font-size: 17px;
+    background-color: #557a95;
+    }
+
+    /* el color del hover */
+.topnav a:hover {
+    background-color: grey;  
+    }
+
+    /* color del hover activo */
+    .topnav a.active {
+    background-color: #374785;
+    color: white;
+    }
+
+
+#img1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 165px;
+    border: 5px solid #374785;
+
+}
+
+#img2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    border: 5px solid #374785;
+}
+
+#img3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    left: 925px;
+    border: 5px solid #374785;
+}
+
+#div1 {
+    position: absolute;
+    top: 375px;
+    margin-left: 150px;
+    margin-right: 850px;
+    color: white;
+}
+
+#div2 {
+    position: absolute;
+    top: 375px;
+    margin-left: 525px;
+    margin-right: 400px;
+    color: white;
+    
+}
+
+#div3 {
+    position: absolute;
+    top: 375px;
+    margin-left: 900px;
+    margin-right: 100px;
+    color: white;
+}
+
+#div4 {
+    position: absolute;
+    top: 600px;
+    color: white;
+}
+
+#link1 {
+    color: white;
+}

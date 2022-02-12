@@ -9,19 +9,17 @@
 
 }
 
-
-.topnav {
-    overflow: hidden;
-    background-color: #557a95;
-    }
-
 body{
     background-image: url("https://upgradedhome.com/wp-content/uploads/2021/05/shutterstock_570656701.webp");
     background-repeat: no-repeat; 
     background-size: cover; height: 100vh;
     
-
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #557a95;
+    }
 
 
 
